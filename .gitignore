@@ -5,9 +5,7 @@
 /.pnp
 .pnp.js
 
-# Inside your .gitignore file
-src/assets/bgvideo.mp4
-src/assets/bgvideo1.mp4
+
 
 
 # testing

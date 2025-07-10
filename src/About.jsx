@@ -11,7 +11,7 @@ const About = () => {
         className="h-screen w-full bg-cover bg-center relative"
         style={{ backgroundImage: `url(${aboutBg})` }}
       >
-        {/* Dark Overlay */}
+       
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
         {/* Hero Content */}

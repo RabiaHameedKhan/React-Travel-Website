@@ -4,19 +4,31 @@ import bgImg from './assets/contact-bg.jpg';
 const Contact = () => {
   return (
     <div
-      className="min-h-screen bg-cover bg-center relative pt-16" 
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative pt-28"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-70 "></div>
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center min-h-screen px-4 py-10">
-        <div className="w-full max-w-2xl bg-black bg-opacity-70 rounded-lg shadow-lg p-8">
-          <h1 className="text-3xl font-bold text-center text-orange-400 mb-6">Contact Us</h1>
-          <form>
+      <div className="relative z-10 flex items-center justify-center min-h-[80vh] px-4 py-4">
+
+        <div
+          className="w-full max-w-2xl bg-black bg-opacity-70 rounded-lg shadow-lg p-8"
+          data-aos="fade-up"
+        >
+          <h1
+            className="text-3xl font-bold text-center text-orange-400 mb-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            Contact Us
+          </h1>
+          <form data-aos="fade-up" data-aos-delay="200">
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-300 mb-1">Your Name</label>
+              <label className="block text-sm font-medium text-gray-300 mb-1">
+                Your Name
+              </label>
               <input
                 type="text"
                 placeholder="Enter your name"
@@ -25,7 +37,9 @@ const Contact = () => {
             </div>
 
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-300 mb-1">Your Email</label>
+              <label className="block text-sm font-medium text-gray-300 mb-1">
+                Your Email
+              </label>
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -34,7 +48,9 @@ const Contact = () => {
             </div>
 
             <div className="mb-6">
-              <label className="block text-sm font-medium text-gray-300 mb-1">Your Message</label>
+              <label className="block text-sm font-medium text-gray-300 mb-1">
+                Your Message
+              </label>
               <textarea
                 rows="5"
                 placeholder="Write your message"

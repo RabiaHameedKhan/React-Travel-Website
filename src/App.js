@@ -13,14 +13,14 @@ const App=()=>{
 
   useEffect(() => {
   AOS.init({
-    duration: 1000, // animation duration (in ms)
-    once: true, // animate only once per scroll
+    duration: 1000, 
+    once: true, 
   });
 }, []);
 
   return(
     <>
-    <div className='mt-20'>
+    <div >
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>

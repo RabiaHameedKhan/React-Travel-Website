@@ -31,17 +31,7 @@ const Navbar = () => {
               HOME
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/destination"
-              onClick={closeMenu}
-              className={({ isActive }) =>
-                isActive ? 'text-orange-400' : 'hover:text-orange-400'
-              }
-            >
-              DESTINATIONS
-            </NavLink>
-          </li>
+          
           <li>
             <NavLink
               to="/about"
@@ -51,6 +41,18 @@ const Navbar = () => {
               }
             >
               ABOUT
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink
+              to="/destination"
+              onClick={closeMenu}
+              className={({ isActive }) =>
+                isActive ? 'text-orange-400' : 'hover:text-orange-400'
+              }
+            >
+              DESTINATIONS
             </NavLink>
           </li>
           <li>

@@ -8,6 +8,7 @@ import About from './About';
 import Contact from './Contact';
 import Destinations from './Destinations';
 import Home from './Home';
+import Footer from './components/Footer';
 
 const App=()=>{
 
@@ -29,6 +30,8 @@ const App=()=>{
         <Route path="/contact" element={<Contact/>}/>
 
       </Routes>
+      <Footer/>
+      
       </div>
    
 

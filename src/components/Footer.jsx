@@ -58,7 +58,7 @@ const Footer = () => {
 
       {/* Bottom Line */}
       <div className="text-center text-sm text-gray-500 mt-10">
-        © {new Date().getFullYear()} WanderWave by RabiaKhan. All rights reserved.
+        © {new Date().getFullYear()} WanderWave. All rights reserved.
       </div>
     </footer>
   );
